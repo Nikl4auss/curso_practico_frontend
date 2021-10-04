@@ -14,6 +14,18 @@
   </head>
   <body>
     <style>
+      *,
+      *::before,
+      *::after {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      html {
+        font-size: 62.5%;
+      }
+
       :root {
         --very-light-pink: #c7c7c7;
         --text-input-field: #f7f7f7;
@@ -21,10 +33,9 @@
         --white: #fff;
         --black: #000;
         --dark: #232830;
-      }
-
-      body {
-        font-family: "Quicksand", sans-serif;
+        --sm: 1.4rem;
+        --md: 1.6rem;
+        --lg: 1.8rem;
       }
     </style>
   </body>
